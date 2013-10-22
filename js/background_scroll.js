@@ -20,3 +20,8 @@ $( window ).scroll(function() {
 	// change the background
 	$( "#target" ).css( "background-image", "url(/images/"+ bg +")" );
 });
+
+// TO DO
+/*
+	1. Preload images
+*/
