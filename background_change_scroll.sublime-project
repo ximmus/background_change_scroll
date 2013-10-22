@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/",
+			"name": "Starter Project",
+			"file_exclude_patterns": [
+				"*.sublime-project",
+				"*.sublime-workspace",
+				"fire_app_log.txt"
+			],
+			"folder_exclude_patterns": [
+				".sass-cache"
+			]
+		}
+	]
+}

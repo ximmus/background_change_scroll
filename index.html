@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Background Change on Scroll</title>
+	<link rel="stylesheet" href="stylesheets/screen.css">
+	<script src="js/jquery-2.0.3.js"></script>
+</head>
+<body>
+	<div id="target" class="image">
+		
+	</div>
+	<div class="scroll-maker"></div>
+<script>
+	$( window ).scroll(function() {
+		$( "#target" ).css( "background-image", "url(/images/bg02.jpg)" );
+	});
+</script>
+</body>
+</html>
